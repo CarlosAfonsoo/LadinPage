@@ -3,11 +3,43 @@
     margin: 0;
 }
 
-.cabecario{
-    background-image: url(img/fundo.jpeg);
+.cabecario {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/fundo.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     border: 1px solid black;
-    margin: auto;
-    height: 1440px;
-    height: 560px;    
+    height: 560px;
+    width: 100%;
+    /* 
+    a tag nã está ocupando todo o espaço que deveria
+    */
     padding: 50px;
+}
+
+.cabecario a {
+    font-style: none;
+}
+
+
+.centeudo{
+color: aliceblue;
+margin-top: 90px;
+position: relative;
+left: 30%;
+}
+
+.paragrafo{
+
+    font-family: inter;
+    font-size: 40px;
+}
+
+.texto{
+
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 36px;
+    font-size: 20px;
+
 }
