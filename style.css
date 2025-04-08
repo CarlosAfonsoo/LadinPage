@@ -4,11 +4,10 @@
 }
 
 .cabecario {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/fundo.jpeg);
+    background-image: linear-gradient(rgba(2, 2, 2, 0.767), rgba(0, 0, 0, 0.5)), url(img/fundo.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    border: 1px solid black;
     height: 560px;
     width: 100%;
     /* 
@@ -23,7 +22,7 @@
 
 
 .centeudo{
-color: aliceblue;
+color: #ffffff;
 margin-top: 90px;
 position: relative;
 left: 30%;
@@ -43,3 +42,58 @@ left: 30%;
     font-size: 20px;
 
 }
+
+.info img {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 0%; /* Reduzido o deslocamento para a esquerda */
+    margin-right: 10px; /* Adiciona um espacinho entre a imagem e o texto */
+}
+.info{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #EAECE5;
+}
+
+.conclusao{
+   padding: 20px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.horas{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.aulas{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 13%;
+}
+
+
+/* @media screen and (max-width: 1280px) {
+    .info img{
+        position: relative;
+        left: 2%;
+    }       
+}
+
+
+@media screen and (max-width: 1280px) {
+    .info img{
+        position: relative;
+        left: 1%;
+    }       
+} */
