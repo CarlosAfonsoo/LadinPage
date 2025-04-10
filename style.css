@@ -7,20 +7,42 @@
 }
 
 .cabecario{
-    background-image: url(img/fundoHeader.svg);
+    background-image: linear-gradient(rgba(2, 2, 2, 0.767), rgba(0, 0, 0, 0.5)), url(img/fundo.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     color: #FFFFFF;
     border: 1px solid black;
+    width: auto;
     height: 560px;
+    padding: 20px;
+}
+
+.cabecario > img{
+    width: 125px;
+    height: 62px;
+    margin-top: 52px;
+    margin-left: 56px;
     
 }
 
-.cabecario > h4{
-    font-size: 40px;
-    font-weight: 400;
+.text{
+    margin-top: 185px;
+    margin-left: 172px;
 }
 
-.cabecario > p{
-    font-size: 20px; 
+.text > h4{
+    font-size: 40px;
     font-weight: 400;
+    width: 536px;
+    height: 102px;
+    
+}
 
+.text > p{
+    font-size: 20px;
+    font-weight: 400;
+    width: 536px;
+    height: 90px;
+    line-height: 128%;
 }
