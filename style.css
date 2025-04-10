@@ -12,7 +12,6 @@
     background-repeat: no-repeat;
     background-position: center;
     color: #FFFFFF;
-    border: 1px solid black;
     width: auto;
     height: 560px;
     padding: 20px;
@@ -27,8 +26,9 @@
 }
 
 .text{
-    margin-top: 185px;
+    margin-top: 100px;
     margin-left: 172px;
+    
 }
 
 .text > h4{
@@ -36,13 +36,28 @@
     font-weight: 400;
     width: 536px;
     height: 102px;
+    line-height: 128%;
     
 }
 
 .text > p{
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 200;
     width: 536px;
     height: 90px;
-    line-height: 128%;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+.itens{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 20px;
+    line-height: 150%;
+    width: auto;
+    height: 170px;
+    background-color: #EAECE5;
 }
