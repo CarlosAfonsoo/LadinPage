@@ -53,6 +53,7 @@
     display: grid;
     grid-auto-flow: column;
     columns: auto;
+    grid: 3;
     font-weight: 400;
     font-size: 20px;
     padding: 20px;
@@ -60,4 +61,16 @@
     width: auto;
     height: 170px;
     background-color: #EAECE5;
+}
+
+.imagem{
+    width: 40px;
+    height: 40px;
+    margin: 50px 0px 50px 100px;
+    padding: 10px;
+}
+
+.texto{
+    display: flex;
+    align-items: center;
 }
