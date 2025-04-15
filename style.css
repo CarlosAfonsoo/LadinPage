@@ -74,3 +74,34 @@
     display: flex;
     align-items: center;
 }
+
+.depoimento{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
+iframe{
+    margin: 50px 25px 50px 100px ;
+}
+
+.texto2{
+    margin: 50px 25px 50px 100px ;
+
+}
+
+.texto2>h1{
+    font-weight: 700;
+    color: #247BA0;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.texto2 > p{
+    font-weight: 400;
+    line-height: 150%;
+    font-size: 16px;
+
+}
