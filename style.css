@@ -105,3 +105,84 @@ iframe{
     font-size: 16px;
 
 }
+
+.carossel{
+    background-color: #247BA0;
+    padding: 50px;
+    height: 444px;
+}
+
+.carossel>h1{
+    color: #EAECE5;
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+
+    
+}
+
+.cards{
+    margin-top: 50px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.btnDireita{
+    cursor: pointer;
+
+    margin-top: 40px;
+}
+
+.btnEsquerda{
+    cursor: pointer;
+    display: none;
+    margin-top: 70px;
+}
+
+.img3{
+    display: none;
+}
+
+.formularios{
+    text-align: center;
+}
+
+.formularios> h1{
+    text-align: center;
+    font-size: 32px;
+    line-height: 150%;
+    color: #383838;
+    margin: 25px;
+}
+
+.inpt{
+    width: 413px;
+    height: 53px;
+    margin: 15px;
+    padding: 10px;
+    background-color: #EAECE5;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #383838;
+    border: 0px;
+}
+
+.btn{
+    margin-top: 40px;
+    margin-bottom: 80px;
+    background-color:#247BA0;
+    width: 335px;
+    height: 53px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 150%;
+    cursor: pointer;
+    border: 0px;
+}
+

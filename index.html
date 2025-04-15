@@ -41,28 +41,50 @@
     </section>
 
     <!-- Video -->
-
     <section class="depoimento">
-        <iframe class="video" width="534" height="300" src="https://www.youtube.com/embed/ITxGkd9h4n4" title="DNC - A escola inovadora que forma profissionais de alta perfomance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        
+        <iframe class="video" width="534" height="300" src="https://www.youtube.com/embed/ITxGkd9h4n4" title="DNC - A escola inovadora que forma profissionais de alta perfomance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <div class="texto2">
             <h1>
-                Aprenda com especialistas e 
-                <br>comece seu primeiro projeto
+                Aprenda com especialistas e <br>
+                comece seu primeiro projeto
             </h1>
             <br><br>
             <p>
                 Conheça o processo de desenvolvimento e entenda como utilizar <br>
-                 os principais métodos e ferramentas da área para resolver <br>
-                  problemas complexos.
-                  <br>
-                  <br>
-                  Conquiste seu certificado e desenvolva um projeto prático para <br>
-                  aplicar seus conhecimentos.
+                os principais métodos e ferramentas da área para resolver <br>
+                problemas complexos.
+                <br><br>
+                Conquiste seu certificado e desenvolva um projeto prático para <br>
+                aplicar seus conhecimentos.
             </p>
         </div>
-        
     </section>
 
+    <!-- CARROSSEL -->
+    <section class="carossel">
+        <h1>
+            Mais de 500 alunos já iniciaram seus estudos
+        </h1>
+        <div class="cards">
+            <img id="btnE" class="btnEsquerda" onclick="direita()" src="img/icons/btnEsquerda.svg" alt="">
+            <img id="img1" class="img1" src="img/screens/card1.svg" alt="">
+            <img class="img2" src="img/screens/card2.svg" alt="">
+            <img class="img3" id="img3" src="img/screens/card3.svg" alt="">
+            <img id="btnD" onclick="esquerda()" class="btnDireita" src="img/icons/btn.direita.svg" alt="">
+        </div>
+    </section>
+
+    <!-- FORMULARIOS -->
+
+    <section id="formulario"  class="formularios" >
+        <h1>Comece agora mesmo e dê o próximo passo da sua carreira</h1>
+        <form action="https://api.sheetmonkey.io/form/2B5g3ex4BUJPTNGwkGScRo" method="post">
+            <input class="inpt" type="text" name="Nome" placeholder="Nome" required> <br>
+            <input class="inpt" type="email" name="Email" placeholder="E-mail" required> <br>
+            <input class="inpt" type="tel" name="Telefone" id="" placeholder="Telefone" required><br>
+            <input class="btn" type="submit" value="Acesse a ementa grátis">
+        </form>
+    </section>
 
     <script src="script.js"></script>
 </body>
